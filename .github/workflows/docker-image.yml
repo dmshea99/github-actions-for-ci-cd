@@ -9,7 +9,7 @@ on:
 jobs:
 
   integration:
-    uses: ./python-ci-workflow.yml
+    uses: ./Ch03/03_04_ci_cd_for_container_images/python-ci-workflow.yml
     permissions:
       contents: read
       checks: write
